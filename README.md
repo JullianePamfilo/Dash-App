@@ -58,3 +58,16 @@ Some of the challenges encountered and their resolutions included:
 Conclusion 
 
 This project integrates a full MongoDB back end with an interactive and dynamic Dash front end. The dashboard gives Grazioso Salvare an effective tool for exploring their animal data and surfacing potential candidates for rescue. The dashboard meets all CS 340 Project Two requirements and has provided good hands-on experience in database management, Python, and data visualization concepts.
+
+** Module Eight Journal **
+What are some steps you take when writing clean, readable, and reusable code?
+
+To ensure readability and maintainability, I wrote CRUD code in reusable functions with clear, consistent naming. This modularity lets others (and my future self) easily change individual steps. For instance, by isolating filtering logic, another developer could swap in a new filter without touching the database calls. Exception handling and consistent output format also make this component robust and easy to extend in other ways. My reuse of this CRUD Python module for Project One to quickly connect to my dashboard in Project Two illustrates its flexibility!
+
+What computational thinking strategies do you use? 
+
+To start this project, I mapped out Grazioso Salvare’s full data needs then divided them into smaller chunks: database access, filtering logic, and visual interface. This project had a greater focus on developing a realistic and usable interface than my previous courses. For my future database-focused projects, I will continue to plan, build, test, and iterate on data-driven solutions until they achieve the user’s goal.
+
+How does the work you do as a computer scientist impact the world?
+
+Computer scientists help turn data into information. In this project, I developed a tool that enables Grazioso Salvare to find rescue animals most in need of homes as quickly as possible. By improving their operational efficiency, the tool directly contributes to their primary goal of protecting animals and has a positive social impact. Projects like this illustrate the power of computing to support problem solving and decision-making.
